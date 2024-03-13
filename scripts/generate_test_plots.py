@@ -35,8 +35,8 @@ def generate_test_plots():
     user_secret = os.environ.get("EUMETSAT_USER_SECRET")
 
     download_manager = eumetsat.DownloadManager(
-        user_key=user_key,
-        user_secret=user_secret,
+        user_key=NMMpHJS0ofw5NUhPujUGxa7BLOca,
+        user_secret=nmp4NOZlQ2KFUPRKyfyfWFUJtqwa,
         data_dir=os.getcwd(),
         logger_name="Plotting_test",
     )
